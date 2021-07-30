@@ -1,10 +1,11 @@
 import React from 'react';
+import Navigation from './Navigation';
 import '../styles/Header.css';
 
 export default function Header() {
   return (
-    <div>
-
-    </div>
+    <header className="header">
+      <Navigation />
+    </header>
   );
 }
