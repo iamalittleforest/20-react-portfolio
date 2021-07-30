@@ -4,30 +4,25 @@
 }
 
 .footer {
-  background-color: #d3d3d3;
+  background-color: #0091AD;
 }
 
 .btn-link {
-  background-color: #0091AD;
+  background-color: #555555;
   margin: 5px;
+  font-size: small;
 }
 
 /* for medium screens */
 @media only screen and (min-width: 600px) {
   .btn-link {
-    height: 50px;
-    width: 50px;
-    padding-top: 5px;
-    margin: 10px;
+    font-size: medium;
   }
 }
 
 /* for large screens */
 @media only screen and (min-width: 992px) {
   .btn-link {
-    height: 75px;
-    width: 75px;
-    padding-top: 16px;
-    margin: 10px;
+    font-size: large;
   }
 }
