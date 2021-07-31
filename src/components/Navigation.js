@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,17 +23,19 @@ export default class Navigation extends React.Component {
               <FontAwesomeIcon icon={faBars} />
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><a className="nav-link" href="#about-container" alt="About">ABOUT</a></li>
-              <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">PORTFOLIO</a></li>
-              <li><a className="nav-link" href="#contact-container" alt="Contact">CONTACT</a></li>
+              <li><a className="nav-link" href="#about-container" alt="About">About</a></li>
+              <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">Portolio</a></li>
+              <li><a className="nav-link" href="#contact-container" alt="Contact">Contact</a></li>
+              <li><a className="nav-link" href="#resume-container" alt="Resume">Resume</a></li>
             </ul>
           </div>
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-          <li><a className="nav-link" href="#about-container" alt="About">ABOUT</a></li>
-          <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">PORTFOLIO</a></li>
-          <li><a className="nav-link" href="#contact-container" alt="Contact">CONTACT</a></li>
+          <li><a className="nav-link" href="#about-container" alt="About">About</a></li>
+          <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">Portfolio</a></li>
+          <li><a className="nav-link" href="#contact-container" alt="Contact">Contact</a></li>
+          <li><a className="nav-link" href="#contact-resume" alt="Resume">Resume</a></li>
         </ul>
       </div>
     );
