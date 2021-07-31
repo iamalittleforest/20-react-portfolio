@@ -15,7 +15,7 @@ import '../styles/components.css';
 
 // links to About, Portfolio, Contact, and Resume pages
 class Navigation extends Component {
-  
+
   // sidenav functionality
   componentDidMount() {
     document.addEventListener('DOMContentLoaded', function () {
