@@ -1,9 +1,15 @@
+// import react
 import React from 'react';
+
+// import icons from Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import '../styles/Footer.css';
 
-export default function Footer() {
+// import css
+import '../styles/components.css';
+
+// links to GitHub, LinkedIn, and Twitter profiles
+function Footer() {
   return (
     <footer className="footer">
       <div className="container">
@@ -22,3 +28,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;
