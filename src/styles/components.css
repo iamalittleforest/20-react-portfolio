@@ -1,0 +1,138 @@
+/* for all screens */
+.row-padding {
+  padding: 20px;
+  margin: 0px;
+}
+
+.header {
+  background-color: #733C71;
+}
+
+.navigation {
+  background-color: #733C71;
+}
+
+.footer {
+  background-color: #0091AD;
+}
+
+.project-card {
+  display: inline-block;
+  width: 100%;
+}
+
+.project-img {
+  border-bottom: solid 1px #F0F0F0;
+}
+
+.project-container {
+  padding: 20px;
+}
+
+.project-link-container {
+  background-color: #455E89; 
+  padding: 10px;
+}
+
+/* for small screens */
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 25px;
+}
+
+.footer-link {
+  background-color: #555555;
+  margin: 5px;
+  font-size: small;
+}
+
+.project-link {
+  font-weight:500;
+  color: #FFFFFF;
+  margin: 0 10px;
+}
+
+.project-description {
+  font: #000000;
+  padding: 10px;
+}
+
+.project-tech {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.project-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #000000;
+  margin: 0;
+}
+
+/* for medium screens */
+@media only screen and (min-width: 600px) {
+  .nav-link {
+    font-size: 1.15rem;
+  }
+  
+  .footer-link {
+    font-size: medium;
+  }
+
+  .project-link {
+    font-size: 1.25rem;
+  }
+
+  .project-description {
+    font-size: 1.5rem;
+  }
+
+  .project-tech {
+    font-size: 1.35rem;
+  }  
+  
+  .project-title {
+    font-size: 2rem;
+    padding-top: 15px;
+  }
+
+  .project-description {
+    padding: 10px;
+  }
+}
+
+/* for large screens */
+@media only screen and (min-width: 992px) {
+  .nav-link {
+    font-size: 1.25rem;
+  }
+  
+  .footer-link {
+    font-size: large;
+  }
+
+  .project-link {
+    font-size: 1.25rem;
+  }
+  
+  .project-description {
+    font-size: 1.5rem;
+  }
+
+  .project-tech {
+    font-size: 1.35rem;
+  }  
+  
+  .project-title {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+
+  .project-description {
+    padding: 10px;
+  }
+}
