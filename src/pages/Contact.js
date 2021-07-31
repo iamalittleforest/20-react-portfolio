@@ -13,18 +13,21 @@ export default function Contact() {
               <div className="input-field col s6 offset-m3">
                 <input id="name" type="text" className="validate" required />
                 <label for="name">Name</label>
+                <span className="helper-text" data-error="Please provide your name" data-success=""></span>
               </div>
             </div>
             <div className="row">
               <div className="input-field col s6 offset-m3">
                 <input id="email" type="email" className="validate" required />
                 <label for="email">Email</label>
+                <span className="helper-text" data-error="Please provide a valid email address" data-success=""></span>
               </div>
             </div>
             <div className="row">
               <div className="input-field col s6 offset-m3">
                 <textarea id="message" className="materialize-textarea validate" required></textarea>
                 <label for="message">Message</label>
+                <span className="helper-text" data-error="Please provide a message" data-success=""></span>
               </div>
             </div>
             <div className="row">
