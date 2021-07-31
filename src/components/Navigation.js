@@ -18,7 +18,7 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <nav className="navigation">
-          <div class="container nav-wrapper">
+          <div className="container nav-wrapper">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <FontAwesomeIcon icon={faBars} />
             </a>
@@ -31,7 +31,7 @@ export default class Navigation extends React.Component {
           </div>
         </nav>
 
-        <ul class="sidenav" id="mobile-demo">
+        <ul className="sidenav" id="mobile-demo">
           <li><a className="nav-link" href="#about-container" alt="About">About</a></li>
           <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">Portfolio</a></li>
           <li><a className="nav-link" href="#contact-container" alt="Contact">Contact</a></li>
