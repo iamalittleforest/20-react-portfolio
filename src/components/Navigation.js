@@ -1,12 +1,22 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import React from 'react';
+// import react
+import React, { Component } from 'react';
+
+// import Materialize
 import M from 'materialize-css/dist/js/materialize.min.js';
+
+// import icons from Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import '../styles/Navigation.css';
 
-export default class Navigation extends React.Component {
+// import css
+import '../styles/components.css';
+
+// links to About, Portfolio, Contact, and Resume pages
+class Navigation extends Component {
+  
+  // sidenav functionality
   componentDidMount() {
     document.addEventListener('DOMContentLoaded', function () {
       let elems = document.querySelectorAll('.sidenav');
@@ -24,7 +34,7 @@ export default class Navigation extends React.Component {
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><a className="nav-link" href="#about-container" alt="About">About</a></li>
-              <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">Portolio</a></li>
+              <li><a className="nav-link" href="#portfolio-container" alt="Portfolio">Portfolio</a></li>
               <li><a className="nav-link" href="#contact-container" alt="Contact">Contact</a></li>
               <li><a className="nav-link" href="#resume-container" alt="Resume">Resume</a></li>
             </ul>
@@ -41,3 +51,5 @@ export default class Navigation extends React.Component {
     );
   }
 }
+
+export default Navigation;
