@@ -14,13 +14,13 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="row center row-padding">
-          <a className="btn-floating btn-link" href="https://www.github.com/iamalittleforest" target="_blank" rel="noreferrer">
+          <a className="btn-floating footer-link" href="https://www.github.com/iamalittleforest" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a className="btn-floating btn-link" href="https://www.linkedin.com/in/wendy-kobayashi" target="_blank" rel="noreferrer">
+          <a className="btn-floating footer-link" href="https://www.linkedin.com/in/wendy-kobayashi" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a className="btn-floating btn-link" href="https://twitter.com/iamalilforest" target="_blank" rel="noreferrer">
+          <a className="btn-floating footer-link" href="https://twitter.com/iamalilforest" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>
