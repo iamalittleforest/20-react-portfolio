@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/pages.css';
 
-export default function Contact() {
+function Contact() {
   return (
     <div className='contact'>
       <div className='container'>
@@ -9,7 +9,7 @@ export default function Contact() {
           <h5 className='container-title'>
             Contact
           </h5>
-          <form className='col s12 '>
+          <form className='col s12'>
             <div className='row'>
               <div className='input-field col s6 offset-m3'>
                 <input id='name' type='text' className='validate' required />
@@ -42,3 +42,5 @@ export default function Contact() {
     </div>
   );
 }
+
+export default Contact;
