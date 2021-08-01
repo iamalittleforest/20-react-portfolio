@@ -1,18 +1,44 @@
 // import react
-import React from 'react';
+import React, {useState} from 'react';
 
-// import Navigation component
+// import components
+import AboutMe from '../pages/AboutMe';
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume';
 import Navigation from './Navigation';
 
 // import css
 import '../styles/components.css';
 
-// calls Navigation component
+// renders page based on currentPage
 function Header() {
+  const [currentPage, setCurrentPage] = useState('Portfolio');
+
+  const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+  };
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  }
+
   return (
-    <header className="header">
-      <Navigation />
-    </header>
+    <div>
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
   );
 }
 
