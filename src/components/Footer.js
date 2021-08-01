@@ -1,4 +1,4 @@
-// import react
+// import React
 import React from 'react';
 
 // import icons from Font Awesome
