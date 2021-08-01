@@ -1,11 +1,77 @@
+// import react
 import React from 'react';
+
+// import Project component
 import Project from './Project';
+
+// import css
 import '../styles/pages.css';
 
+// array of projects
 const projects = [
-
+  {
+    image: '',
+    alt: '',
+    title: '',
+    description: '',
+    tech: '',
+    deployed: '',
+    repo: '',
+    key: ''
+  },
+  {
+    image: '',
+    alt: '',
+    title: '',
+    description: '',
+    tech: '',
+    deployed: '',
+    repo: '',
+    key: ''
+  },
+  {
+    image: '',
+    alt: '',
+    title: '',
+    description: '',
+    tech: '',
+    deployed: '',
+    repo: '',
+    key: ''
+  },
+  {
+    image: '',
+    alt: '',
+    title: '',
+    description: '',
+    tech: '',
+    deployed: '',
+    repo: '',
+    key: ''
+  },
+  {
+    image: '',
+    alt: '',
+    title: '',
+    description: '',
+    tech: '',
+    deployed: '',
+    repo: '',
+    key: ''
+  },
+  {
+    image: '',
+    alt: '',
+    title: '',
+    description: '',
+    tech: '',
+    deployed: '',
+    repo: '',
+    key: ''
+  },
 ]
 
+// list projects (image, title, description, tech, and links to deployed app and repo)
 function Portfolio() {
   return (
     <div className='portfolio'>
@@ -24,6 +90,7 @@ function Portfolio() {
                 tech={project.tech}
                 deployed={project.deployed}
                 repo={project.repo}
+                key={project.id}
               />
             ))}
           </div>
