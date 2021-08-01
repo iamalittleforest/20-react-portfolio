@@ -1,9 +1,20 @@
 import React from 'react';
+import Project from './Project';
+import '../styles/pages.css';
 
-export default function Portfolio() {
+function Portfolio() {
   return (
-    <div>
-
+    <div className='portfolio'>
+      <div className='container'>
+        <div className='row center row-padding'>
+          <h5 className='container-title'>
+            Portfolio
+          </h5>
+          <Project />
+        </div>
+      </div>
     </div>
   );
 }
+
+export default Portfolio;
