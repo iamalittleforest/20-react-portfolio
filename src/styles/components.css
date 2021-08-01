@@ -43,9 +43,7 @@
 }
 
 .footer-link {
-  background-color: #555555;
   margin: 5px;
-  font-size: small;
 }
 
 .project-link {
@@ -78,10 +76,6 @@
   .nav-link {
     font-size: 1.15rem;
   }
-  
-  .footer-link {
-    font-size: medium;
-  }
 
   .project-link {
     font-size: 1.25rem;
@@ -109,10 +103,6 @@
 @media only screen and (min-width: 992px) {
   .nav-link {
     font-size: 1.25rem;
-  }
-  
-  .footer-link {
-    font-size: large;
   }
 
   .project-link {
