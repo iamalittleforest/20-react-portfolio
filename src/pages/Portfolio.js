@@ -78,9 +78,7 @@ function Portfolio() {
     <div className='portfolio'>
       <div className='container'>
         <div className='row center row-padding'>
-          <h5 className='container-title'>
-            Portfolio
-          </h5>
+          <h4 className='container-title'>Portfolio</h4>
           <div>
             {projects.map((project) => (
               <Project
