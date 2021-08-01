@@ -1,8 +1,14 @@
+// import React
 import React from 'react';
+
+// import icons from Font Awesome 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
+// import css
 import '../styles/pages.css';
 
+// list proficiencies and link to download resume
 function Resume() {
   return (
     <div className='resume'>
