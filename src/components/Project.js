@@ -13,11 +13,11 @@ function Project(props) {
       </div>
       <div className='card-stacked'>
         <div className='card-content project-container'>
-          <span className='card-title project-title'>{props.title}</span>
+          <div className='project-title'>{props.title}</div>
           <p className='project-description'>{props.description}</p>
           <p className='project-tech'>{props.tech}</p>
         </div>
-        <div className='card-action project-link-container'>
+        <div className='project-link-container'>
           <a className='project-link' href={props.deployed} target='_blank' rel='noreferrer'>Deployed App</a>
           <a className='project-link' href={props.repo} target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
