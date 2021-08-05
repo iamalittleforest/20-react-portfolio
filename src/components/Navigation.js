@@ -25,11 +25,11 @@ function Navigation(props) {
   return (
     <div>
       <nav className='navigation'>
-        <div className='container nav-wrapper'>
+        <div className='container nav-wrapper'> 
           <a href='#' data-target='mobile-demo' className='sidenav-trigger'>
             <FontAwesomeIcon icon={faBars} />
           </a>
-          <ul id='nav-mobile' className='right hide-on-med-and-down'>
+          <ul id='nav-mobile' className='left hide-on-med-and-down'>
             <li>
               <a className={props.currentPage === 'AboutMe' ? 'nav-link current' : 'nav-link'} href='#about' onClick={() => props.handlePageChange('AboutMe')}>
                 About Me
@@ -51,6 +51,7 @@ function Navigation(props) {
               </a>
             </li>
           </ul>
+          <span className='brand-logo right name'>WENDY KOBAYASHI</span>
         </div>
       </nav>
 
