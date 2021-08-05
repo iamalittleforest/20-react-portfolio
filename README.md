@@ -11,7 +11,7 @@ https://iamalittleforest.github.io/20-react-portfolio/
 A single page application that functions as a portfolio.
 
 ## Screenshot
-<img src="assets/images/README-screenshot.png" alt="screenshot">
+<img src="src\assets\images\README-screenshot.PNG" alt="screenshot">
 
 ## License
 MIT License
