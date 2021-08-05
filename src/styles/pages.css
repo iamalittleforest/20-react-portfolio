@@ -1,0 +1,98 @@
+/* for all screens */
+.about,
+.contact,
+.portfolio,
+.resume {
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
+.resume-heading {
+  font-weight: 600;
+}
+
+.resume-link {
+  margin: 5px;
+}
+
+.submit-btn {
+  margin: 0;
+}
+
+/* for small screens */
+.row-padding {
+  padding: 25px 5vw;
+  margin: 0;
+}
+
+.container-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-img {
+  height: 150px;
+  width: 150px;
+  border: solid 7px #757575;
+}
+
+.about-description {
+  margin: 0;
+}
+
+.proficiencies {
+  padding-bottom: 10px; 
+}
+
+/* for medium screens */
+@media only screen and (min-width: 600px) {
+  .row-padding {
+    padding: 25px 10vw;
+    margin: 0;
+  }
+  
+  .container-title {
+    font-size: 2rem;
+    margin-top: 5px; 
+    margin-bottom: 15px;
+  }
+  
+  .about-img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .about-description,
+  .proficiencies {
+    font-size: 1.15rem;
+  }
+}
+
+/* for large screens */
+@media only screen and (min-width: 992px) {
+  .row-padding {
+    padding: 25px 15vw;
+    margin: 0;
+  }
+  
+  .container-title {
+    font-size: 2.25rem;
+    margin-top: 5px; 
+    margin-bottom: 15px;
+  }
+  
+  .about-img {
+    height: 250px;
+    width: 250px;
+  }
+  
+  .about-description,
+  .proficiencies {
+    font-size: 1.25rem
+  }
+}
