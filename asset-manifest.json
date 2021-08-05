@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/20-react-portfolio/static/css/main.1a86e8aa.chunk.css",
-    "main.js": "/20-react-portfolio/static/js/main.f74febdf.chunk.js",
-    "main.js.map": "/20-react-portfolio/static/js/main.f74febdf.chunk.js.map",
+    "main.css": "/20-react-portfolio/static/css/main.f6cfedb6.chunk.css",
+    "main.js": "/20-react-portfolio/static/js/main.9153d77e.chunk.js",
+    "main.js.map": "/20-react-portfolio/static/js/main.9153d77e.chunk.js.map",
     "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.68eda024.js",
     "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.68eda024.js.map",
     "static/css/2.b0300f7a.chunk.css": "/20-react-portfolio/static/css/2.b0300f7a.chunk.css",
@@ -12,21 +12,21 @@
     "static/js/3.89fe4a09.chunk.js.map": "/20-react-portfolio/static/js/3.89fe4a09.chunk.js.map",
     "index.html": "/20-react-portfolio/index.html",
     "static/css/2.b0300f7a.chunk.css.map": "/20-react-portfolio/static/css/2.b0300f7a.chunk.css.map",
-    "static/css/main.1a86e8aa.chunk.css.map": "/20-react-portfolio/static/css/main.1a86e8aa.chunk.css.map",
+    "static/css/main.f6cfedb6.chunk.css.map": "/20-react-portfolio/static/css/main.f6cfedb6.chunk.css.map",
     "static/js/2.484ba54d.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.484ba54d.chunk.js.LICENSE.txt",
-    "static/media/Fitness-Tracker.11bcba92.png": "/20-react-portfolio/static/media/Fitness-Tracker.11bcba92.png",
-    "static/media/MakeIt-BuyIt.d34f2575.png": "/20-react-portfolio/static/media/MakeIt-BuyIt.d34f2575.png",
-    "static/media/Pet-Connect.007ff662.png": "/20-react-portfolio/static/media/Pet-Connect.007ff662.png",
+    "static/media/Fitness-Tracker.5d1cc475.png": "/20-react-portfolio/static/media/Fitness-Tracker.5d1cc475.png",
+    "static/media/MakeIt-BuyIt.877b99d6.png": "/20-react-portfolio/static/media/MakeIt-BuyIt.877b99d6.png",
+    "static/media/Pet-Connect.ccec5324.png": "/20-react-portfolio/static/media/Pet-Connect.ccec5324.png",
     "static/media/Profile.72e4a11c.jpg": "/20-react-portfolio/static/media/Profile.72e4a11c.jpg",
-    "static/media/Progressive-Budget.b42fa0e9.png": "/20-react-portfolio/static/media/Progressive-Budget.b42fa0e9.png",
-    "static/media/Tech-Blog.6ace2a52.png": "/20-react-portfolio/static/media/Tech-Blog.6ace2a52.png",
-    "static/media/Weather-Dashboard.f18dd302.png": "/20-react-portfolio/static/media/Weather-Dashboard.f18dd302.png"
+    "static/media/Progressive-Budget.61c4a7f7.png": "/20-react-portfolio/static/media/Progressive-Budget.61c4a7f7.png",
+    "static/media/Tech-Blog.7969f467.png": "/20-react-portfolio/static/media/Tech-Blog.7969f467.png",
+    "static/media/Weather-Dashboard.15594d76.png": "/20-react-portfolio/static/media/Weather-Dashboard.15594d76.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68eda024.js",
     "static/css/2.b0300f7a.chunk.css",
     "static/js/2.484ba54d.chunk.js",
-    "static/css/main.1a86e8aa.chunk.css",
-    "static/js/main.f74febdf.chunk.js"
+    "static/css/main.f6cfedb6.chunk.css",
+    "static/js/main.9153d77e.chunk.js"
   ]
 }
