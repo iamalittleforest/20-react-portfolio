@@ -1,5 +1,5 @@
 // import react
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // import components
 import AboutMe from '../pages/AboutMe';
@@ -13,7 +13,8 @@ import '../styles/components.css';
 
 // renders page based on currentPage
 function Header() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
@@ -36,7 +37,9 @@ function Header() {
 
   return (
     <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className='header'>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
       {renderPage()}
     </div>
   );
