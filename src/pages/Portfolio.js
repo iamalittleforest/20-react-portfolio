@@ -45,7 +45,7 @@ function Portfolio() {
       description: "Pet Connect is a social media application that is designed to connect pet owners. Users can create posts to plan dog walks with others, get potty training lessons, provide product information, and ask questions from other pet owners.",
       tech: "HTML, CSS, JavaScript, Bootswatch, Handlebars, Node.js, Bcrypt, Dotenv, Express, Session, MySQL, Nodemailer, Sequelize, Heroku, Insomnia",
       deployed: "https://project-2-pet-connect.herokuapp.com/",
-      repo: "https://github.com/iamalittleforest/project-2-pet-connect",
+      repo: "https://github.com/iamalittleforest/pet-connect",
       id: 3
     },
     {
@@ -65,7 +65,7 @@ function Portfolio() {
       description: "Make it / Buy It is an application that is designed to help users who need help with deciding on their next meal. If a user decides to “Make It,” they will navigate to a page that will pull up recipes based on ingredients that the user wants to use. On the other hand, if the user decides to “Buy It,” they will navigate to a page that will pull up restaurants based on a location the user chooses.",
       tech: "HTML, CSS, JavaScript, jQuery, Materialize, Spoonacular API, Yelp API",
       deployed: "https://iamalittleforest.github.io/project-1-make-it-buy-it/",
-      repo: "https://github.com/iamalittleforest/project-1-make-it-buy-it",
+      repo: "https://github.com/iamalittleforest/make-it-buy-it",
       id: 5
     },
     {
