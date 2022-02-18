@@ -64,7 +64,7 @@ function Portfolio() {
       title: "Make It / Buy It",
       description: "Make it / Buy It is an application that is designed to help users who need help with deciding on their next meal. If a user decides to “Make It,” they will navigate to a page that will pull up recipes based on ingredients that the user wants to use. On the other hand, if the user decides to “Buy It,” they will navigate to a page that will pull up restaurants based on a location the user chooses.",
       tech: "HTML, CSS, JavaScript, jQuery, Materialize, Spoonacular API, Yelp API",
-      deployed: "https://iamalittleforest.github.io/project-1-make-it-buy-it/",
+      deployed: "https://iamalittleforest.github.io/make-it-buy-it/",
       repo: "https://github.com/iamalittleforest/make-it-buy-it",
       id: 5
     },
